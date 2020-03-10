@@ -132,7 +132,12 @@ Link to part 2 of the project: https://codepen.io/liamcox/pen/bGdVGVb?editors=11
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+	An inline element takes up just the space it needs and a block element takes up a whole line
     2. What happens when an element is positioned absolutely? 
+	Its positioned relative to its closest element but other elements can be positioned relative to the window.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+	set the display to inline-block
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+ P,div,header.  Anchor tag img tag, button
     5. In your own words, explain the box model. What is the fix for the box model? 
+	Theres 4 levels to the box model. Here they are from outer to inner, Margin, Border, Padding, Content. A problem with this model is that you need to do math to figure out the true space an item takes up so to fix that we do box-sizing:border-box. This makes it so an item can never be bigger than its width.
